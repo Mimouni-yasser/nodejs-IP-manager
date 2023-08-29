@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> DATABASE IP </title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script src="static/jexcel.js" type="application/javascript"></script>
+<script src="static/jsuites.js" type="application/javascript"></script>
+<!-- CSS -->
+<link rel="stylesheet" href="static/simple-notify.min.css" type="text/css"/>
+
+<!-- JS -->
+<script src="static/simple-notify.min.js" type="application/javascript"></script>
+<link rel="stylesheet" href="static/jsuites.css" type="text/css" />
+<link rel="stylesheet" href="static/jexcel.css" type="text/css" />
+<script src="static/jquery.js" type="application/javascript"></script>
+
+</head>
+
+<body>
+    <div id = 'search-fields'>
+      <div class="search-bar">
+        <span> IP address </span>
+        <input class="user-input" id="IP-search" placeholder="Search">
+      </div>
+      <div class="search-bar">
+        <span> MAC address </span>
+        <input class="user-input" id="MAC-search" placeholder="Search">
+      </div>
+      <div class="search-bar">
+          <span> Commentaire </span>
+          <input class="user-input" id="comment-search" placeholder="Search">
+      </div>
+      <div class="search-bar">
+        <span> type </span>
+        <input class="user-input" id="type-search" placeholder="Search">
+      </div>
+    
+      <button id="modify-button" class="search-bar"> activer la modification </button>
+    </div>
+
+      <div id="results-sheet">
+        <div id="spreadsheet"></div>
+      </div>
+    
+    <div id="add-bar">
+      <div id = 'add-fields'>
+        <div class="add-bar">
+          <span> IP address </span>
+          <input class="user-add" id="IP-add" placeholder="add">
+        </div>
+        <div class="add-bar">
+          <span> MAC address </span>
+          <input class="user-add" id="MAC-add" placeholder="add">
+        </div>
+        <div class="add-bar">
+            <span> Commentaire </span>
+            <input class="user-add" id="comment-add" placeholder="add">
+        </div>
+        <div class="add-bar">
+          <span> type </span>
+          <input class="user-add" id="type-add" placeholder="add">
+      </div>
+        <button id="add-button" class="add-bar"> ajouter </button>
+      </div>
+    </div>
+
+</body>
+
+<script type="text/javascript" src="static/main.js"></script>
+<link rel="stylesheet" href="static/styles.css" type="text/css">
+
+
+</html>

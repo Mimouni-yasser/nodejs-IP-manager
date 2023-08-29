@@ -1,0 +1,90 @@
+
+table, tr
+{
+    table-layout: fixed;
+    border: 1px solid black;
+    border-collapse: collapse;  
+}
+
+.search-bar
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 5vh;
+}
+
+.search-bar span
+{
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+    font-weight: bolder;
+}
+
+#search-fields
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#add-fields
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.add-bar
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+
+#results-sheet
+{
+    height: 86vh;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#spreadsheet
+{
+    overflow-y: scroll;
+}
+#spreadsheet::-webkit-scrollbar
+{
+    background-color: #00a883;
+    width: 9px;
+}
+
+#spreadsheet::-webkit-scrollbar-thumb {
+    background: #73AD21;
+}
+
+.modifying
+{
+    background-color: red;
+}
+
+#modify-button
+{
+    background-color: green;
+}
+
+#add-button
+{
+    background-color: blue;
+}
+
+.delete-button {
+    background-color: white;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
